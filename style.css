@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+body{
+    max-width: 1440px;
+    background-color:  hsl(0, 0%, 100%);
+}
+section {
+    padding: 0 4%;
+}
+.poster img{
+    height: 60vh;
+    width: 100%;
+}
+.text-cont {
+    margin-top: 20px;
+}
+.text-cont h1{
+    font-size: 32px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-top: 30px;
+}
+.text-cont p{
+    font-family: "outfit";
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+}
+.prep-cont{
+    background-color: hsl(30, 54%, 90%);
+    margin-top: 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.prep-list{
+    padding: 20px 40px;
+    line-height: 3;
+    
+}
+.prep-list h4{
+    font-family: "outfit";
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+.prep-list li{
+    font-family: "outfit";
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    
+}
+.ingedients{
+    margin-top: 30px;
+}
+.ing-cont h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+.ingred-list li{
+    font-family: "outfit";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    margin-left: 30px;
+    color: hsl(24, 5%, 18%);
+}
+.Inst-cont{
+    margin-top: 40px;
+}
+.Inst-head h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%); 
+}
+.inst-cont{
+    margin-top: 20px;
+}
+
+.inst-list li{
+    font-family: "outfit";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    color: hsl(24, 5%, 18%);
+    margin-left: 30px;
+}
+.nut-cont{
+    margin-top: 40px;
+}
+.nut-text h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%); 
+}
+.nut-text p{
+    font-family: "outfit";
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+}
+.table-cont{
+    margin-top: 20px;
+}
+#table td{
+    color:hsl(24, 5%, 18%) ;
+    font-family: "outfit";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1.2rem 20rem 1.2rem 5rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 100%;
+}
+#table #numb{
+    font-weight: 600;
+}
+@media screen and (max-width: 380px) {
+    section{
+        width:100%
+    }
+    .poster img{
+        height: 15vh;
+        width: 100%;
+    }
+    .text-cont {
+        margin-top: 10px;
+    }
+    .text-cont h1{
+        font-size: 26px;
+        font-weight: 400;
+        color: hsl(24, 5%, 18%);
+        margin-top: 30px;
+    }
+    .text-cont p{
+        font-family: "outfit";
+        font-size: 14px;
+        font-weight: 400;
+        color: hsl(24, 5%, 18%);
+        margin-top: 20px;
+    }
+    .prep-cont{
+        background-color: hsl(30, 54%, 90%);
+        margin-top: 15px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+    }
+    .prep-list{
+        padding: 20px 40px;
+        line-height: 2.5;
+        
+    }
+    .prep-list h4{
+        font-family: "outfit";
+        font-size: 16px;
+        font-weight: 600;
+        color: hsl(332, 51%, 32%);
+    }
+    .prep-list li{
+        font-family: "outfit";
+        font-size: 12px;
+        font-weight: 400;
+        color: hsl(24, 5%, 18%);   
+    }
+    .ingedients{
+        margin-top: 20px;
+        height: auto;
+        width: 100%;
+    }
+    .ing-cont h1{
+        font-size: 20px;
+        font-weight: 600;
+        color: hsl(14, 45%, 36%);
+    }
+    .ingred-list li{
+        font-family: "outfit";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2;
+        margin-left: 30px;
+        color: hsl(24, 5%, 18%);
+    }
+    .nut-cont{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .Inst-cont{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .Inst-head h1{
+        font-size: 20px;
+        font-weight: 600;
+        color: hsl(14, 45%, 36%); 
+    }
+    .inst-cont{
+        margin-top: 10px;
+    }
+    .inst-list li{
+        font-family: "outfit";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: hsl(24, 5%, 18%);
+        margin-left: 30px;
+    }
+    .nut-cont{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .nut-text h1{
+        font-size: 20px;
+        font-weight: 600;
+        color: hsl(14, 45%, 36%); 
+    }
+    .nut-text p{
+        font-family: "outfit";
+        font-size: 14px;
+        font-weight: 400;
+        color: hsl(24, 5%, 18%);
+        margin-top: 10px;
+    }
+    .table-cont{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        display: block;
+        
+    }
+    #table td{
+        color:hsl(24, 5%, 18%) ;
+        font-family: "outfit";
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        font-weight: 400;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 100%;
+    }
+}
